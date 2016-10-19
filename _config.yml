@@ -1,0 +1,9 @@
+---
+title: Alizée Freudenthal - Coming Soon
+timezone: UTC
+author: Alizée Freudenthal
+sass:
+  sass_dir: assets/css
+permalink: pretty
+description: is a french graphic designer based in New York City currently working at Mother Design.
+exclude: ['node_modules']

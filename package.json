@@ -1,0 +1,16 @@
+{
+  "name": "aftemp",
+  "version": "1.0.0",
+  "description": "Temporary website for Alizée Freudenthal.",
+  "main": "index.js",
+  "dependencies": {
+    "glob": "^7.1.1",
+    "uncss": "^0.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
