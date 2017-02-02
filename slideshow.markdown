@@ -22,6 +22,10 @@ slideshow:
   hover-title: 
   horizontal: 
   vertical: 
+- image: "/uploads/Alizee-Freudenthal-Marlton-Hotel-06.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
 - image: "/uploads/Alizee-Freudenthal-SAME-1.jpg"
   hover-title: 
   horizontal: 
@@ -31,6 +35,18 @@ slideshow:
   horizontal: 
   vertical: 
 - image: "/uploads/AlizeeFreudenthal-TheDean-1.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/AlizeeFreudenthal-NadiaTarr-ArtDirection-Winter02.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/AlizeeFreudenthal-TheDean-12.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
+- image: "/uploads/76ers-Flag.jpg"
   hover-title: 
   horizontal: 
   vertical: 
