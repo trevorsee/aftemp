@@ -14,3 +14,7 @@ sass:
 permalink: pretty
 description: is a french graphic designer based in New York City currently working
   at Mother Design.
+slider-rate: 1000
+slider-animation-speed: 0
+imgurl: http://res.cloudinary.com/daiyzvpj5/image/fetch
+tempurl: http://alizeefreudenthal.com
