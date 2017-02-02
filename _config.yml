@@ -1,8 +1,30 @@
 ---
 title: Alizée Freudenthal - Coming Soon
 timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    slideshow:
+    - image: ''
+      hover-title: ''
+      horizontal: 50%
+      vertical: 50%
 author: Alizée Freudenthal
 sass:
   sass_dir: css
 permalink: pretty
-description: is a french graphic designer based in New York City currently working at Mother Design.
+description: is a french graphic designer based in New York City currently working
+  at Mother Design.
+slider-rate: 1000
+slider-animation-speed: 1
+imgurl: http://res.cloudinary.com/daiyzvpj5/image/fetch
+tempurl: http://alizeefreudenthal.com
