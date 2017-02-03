@@ -3,5 +3,6 @@ layout: default
 ---
 
 <div class="vh-100">
-
+  {% assign slides = site.pages | where:'title', 'slideshow' | first %}
+  {% include slideshow.html %}
 </div>
