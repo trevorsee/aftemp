@@ -10,6 +10,7 @@
               {{ site.imgurl }}/c_limit,h_2000,w_1500/{{ site.tempurl }}{{ photo.image }} 1500w,
               {{ site.imgurl }}/c_limit,h_3500,w_2500/{{ site.tempurl }}{{ photo.image }} 2500w,
               {{ site.imgurl }}/c_limit,h_5500,w_4000/{{ site.tempurl }}{{ photo.image }} 4000w"
+      sizes="(min-width: 800px) 100vw, 300vw"
       src="{{ photo.image }}"
       onerror="this.onerror=null;this.srcset='{{ photo.image }}';"
       class="swiper-slide swiper-no-swiping w-100 h-100"
