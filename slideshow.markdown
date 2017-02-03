@@ -50,11 +50,11 @@ slideshow:
   hover-title: 
   horizontal: 
   vertical: 
-- image: "/uploads/AlizeeFreudenthal-NadiaTarr-ArtDirection-Lookbook-BW-02.jpg"
+- image: "/uploads/AlizeeFreudenthal-TheDean-13.jpg"
   hover-title: 
   horizontal: 
   vertical: 
-- image: "/uploads/AlizeeFreudenthal-TheDean-13.jpg"
+- image: "/uploads/AlizeeFreudenthal-NadiaTarr-ArtDirection-Lookbook-BW-02.jpg"
   hover-title: 
   horizontal: 
   vertical: 
