@@ -2,6 +2,10 @@
 title: slideshow
 date: 2017-02-02 05:47:00 Z
 slideshow:
+- image: "/uploads/AF%20Honor.jpg"
+  hover-title: description of second image
+  horizontal: 50%
+  vertical: 50%
 - image: "/uploads/AF_NastyGalaxy.jpg"
   hover-title: description of third image
   horizontal: 50%
@@ -12,10 +16,6 @@ slideshow:
   vertical: 50%
 - image: "/uploads/Alizee-Freudenthal-MNZ-1.jpg"
   hover-title: description of first image
-  horizontal: 50%
-  vertical: 50%
-- image: "/uploads/AF%20Honor.jpg"
-  hover-title: description of second image
   horizontal: 50%
   vertical: 50%
 - image: "/uploads/AlizeeFreudenthal-NadiaTarr-ArtDirection-BW04.jpg"
