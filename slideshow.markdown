@@ -2,7 +2,7 @@
 title: slideshow
 date: 2017-02-02 05:47:00 Z
 slideshow:
-- image: "/uploads/MotherDesign_NastyGalaxy__800x536_Thumbnail.jpg"
+- image: "/uploads/Alizee-Freudenthal-NastyGalaxy.jpg"
   hover-title: description of third image
   horizontal: 50%
   vertical: 50%
