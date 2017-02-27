@@ -2,12 +2,12 @@
 title: slideshow
 date: 2017-02-02 05:47:00 Z
 slideshow:
-- image: "/uploads/AF%20Honor.jpg"
-  hover-title: description of second image
+- image: "/uploads/MotherDesign_NastyGalaxy__800x536_Thumbnail.jpg"
+  hover-title: description of third image
   horizontal: 50%
   vertical: 50%
-- image: "/uploads/AF_NastyGalaxy.jpg"
-  hover-title: description of third image
+- image: "/uploads/AF%20Honor.jpg"
+  hover-title: description of second image
   horizontal: 50%
   vertical: 50%
 - image: "/uploads/AlizeeFreudenthal-TheDean-19.jpg"
@@ -18,6 +18,10 @@ slideshow:
   hover-title: description of first image
   horizontal: 50%
   vertical: 50%
+- image: "/uploads/MotherDesign_NastyGalaxy_2800x1862_25.jpg"
+  hover-title: 
+  horizontal: 
+  vertical: 
 - image: "/uploads/AlizeeFreudenthal-NadiaTarr-ArtDirection-BW04.jpg"
   hover-title: 
   horizontal: 
@@ -38,7 +42,7 @@ slideshow:
   hover-title: 
   horizontal: 
   vertical: 
-- image: "/uploads/76ers-Flag.jpg"
+- image: "/uploads/Alizee-Freudenthal-76ers-Since1776-Flag.jpg"
   hover-title: 
   horizontal: 
   vertical: 
@@ -47,10 +51,6 @@ slideshow:
   horizontal: 
   vertical: 
 - image: "/uploads/NADIATARR-CAMPAIGN-WINTER-2.jpg"
-  hover-title: 
-  horizontal: 
-  vertical: 
-- image: "/uploads/AlizeeFreudenthal-TheDean-13.jpg"
   hover-title: 
   horizontal: 
   vertical: 
