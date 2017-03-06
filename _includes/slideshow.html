@@ -3,20 +3,22 @@
   <div class="swiper-wrapper">
     {% for photo in slides.slideshow %}
     <!-- https://github.com/bfred-it/object-fit-images -->
+    <div class="swiper-slide swiper-no-swiping">
       <img
-      srcset="{{ site.imgurl }}/c_limit,h_600,w_400,fl_progressive/{{ site.tempurl }}{{ photo.image }} 400w,
+      data-srcset="{{ site.imgurl }}/c_limit,h_600,w_400,fl_progressive/{{ site.tempurl }}{{ photo.image }} 400w,
               {{ site.imgurl }}/c_limit,h_1000,w_700,fl_progressive/{{ site.tempurl }}{{ photo.image }} 700w,
               {{ site.imgurl }}/c_limit,h_1000,w_800,fl_progressive/{{ site.tempurl }}{{ photo.image }} 1000w,
               {{ site.imgurl }}/c_limit,h_2000,w_1500,fl_progressive/{{ site.tempurl }}{{ photo.image }} 1500w,
               {{ site.imgurl }}/c_limit,h_3500,w_2500,fl_progressive/{{ site.tempurl }}{{ photo.image }} 2500w,
               {{ site.imgurl }}/c_limit,h_5500,w_4000,fl_progressive/{{ site.tempurl }}{{ photo.image }} 4000w"
       sizes="(min-width: 800px) 100vw, 300vw"
-      src="{{ photo.image }}"
+      data-src="{{ photo.image }}"
       onerror="this.onerror=null;this.srcset='{{ photo.image }}';"
-      class="swiper-slide swiper-no-swiping w-100 h-100"
+      class="w-100 swiper-lazy h-100"
       style=" object-fit: cover; object-position: {{ photo.horizontal }} {{ photo.vertical }}; font-family: 'object-fit: cover; object-position: {{ photo.horizontal }} {{ photo.vertical }};'"
       alt="{{ photo.title }}">
       </img>
+    </div>
     {% endfor %}
   </div>
 </div>
@@ -25,13 +27,30 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
 <script src="https://unpkg.com/object-fit-images@3.0.1/dist/ofi.min.js"></script>
 <script>
-var swiper = new Swiper('.swiper-container', {
-  loop: true,
-  autoplayDisableOnInteraction: false,
-  autoplay: {{site.slider-rate}},
-  effect: "fade",
-  speed: 1
-  });
-
 objectFitImages();
+
+var swiper = new Swiper('.swiper-container', {
+  autoplayDisableOnInteraction: false,
+  autoplay: false,
+  effect: "fade",
+  speed: 1,
+  preloadImages: false,
+  lazyLoading: true,
+  onLazyImageReady: function (s) {
+    // console.log(s.activeIndex+1 + ' of ' + s.slides.length);
+    if (s.activeIndex+1 < s.slides.length) {
+      setTimeout( function(){
+        // console.log('next');
+        s.slideNext();
+      }, 1000);
+    } else {
+      setTimeout( function(){
+        // console.log('loop');
+        s.params.autoplay = {{site.slider-rate}};
+        s.startAutoplay();
+      }, 1000);
+    }
+  }
+});
+
 </script>
